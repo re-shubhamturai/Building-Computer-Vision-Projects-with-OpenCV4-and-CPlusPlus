@@ -34,5 +34,5 @@ TARGET_LINK_LIBRARIES( ch3_sample4 ${OpenCV_LIBS} )
 ADD_EXECUTABLE( ch3_sample5 sample5.cpp )
 TARGET_LINK_LIBRARIES( ch3_sample5 ${OpenCV_LIBS} -lglut -lGL -lGLU)
 
-ADD_EXECUTABLE( ch3_sample6 sample6.cpp )
-TARGET_LINK_LIBRARIES( ch3_sample6 ${OpenCV_LIBS} )
+# ADD_EXECUTABLE( ch3_sample6 sample6.cpp )
+# TARGET_LINK_LIBRARIES( ch3_sample6 ${OpenCV_LIBS} )

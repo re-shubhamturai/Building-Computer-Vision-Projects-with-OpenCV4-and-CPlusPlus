@@ -23,7 +23,7 @@
 	"forwardPorts": [1111],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "export DISPLAY=localhost:24.0",
+	"postCreateCommand": "export DISPLAY=localhost:23.0",
 
 	// Comment out this line to run as root instead.
 	"remoteUser": "vscode"

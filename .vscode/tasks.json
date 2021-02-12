@@ -5,7 +5,7 @@
             "label": "Build Main",
             "type": "shell",
             // "command": "g++ -g main.cpp -o manual-build/main.out",
-            "command": "cd Chapter02/build && cmake ../ -DCMAKE_BUILD_TYPE=Debug && make -j4",
+            "command": "cd Chapter03/build && cmake ../ -DCMAKE_BUILD_TYPE=Debug && make -j4",
             // "command": "${co4mmand:cmake.build}",
             "group": {
                 "kind": "build",

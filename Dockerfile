@@ -77,7 +77,9 @@ RUN cd ~/opencv_build/opencv && \
     -D CUDA_ARCH_BIN=7.5 \
     -D WITH_CUBLAS=1 \
     -D CUDA_FAST_MATH=1 \
+    -D WITH_OPENGL=ON \
     -D WITH_GTK=ON \
+    -D WITH_QT=ON \
     -D BUILD_SHARED_LIBS=ON .. \
 #    -D WITH_CUDNN=ON \
 #    -D BUILD_opencv_cudacodec=OFF \
@@ -161,6 +163,7 @@ RUN apt-get update -y \
 # for tensorflow-yolov4-tflite
 RUN pip3 install tensorflow==2.3.0rc0 absl-py matplotlib easydict pillow --use-feature=2020-resolver
 RUN apt-get install -y jq gdb
+RUN apt-get install -y libx11-dev xorg-dev freeglut3-dev libglew1.5 libglew1.5-dev libgl1-mesa-glx libgl1-mesa-dev libglfw3-dev libglfw3
 
 # RUN apt-get install curl zip tar
 

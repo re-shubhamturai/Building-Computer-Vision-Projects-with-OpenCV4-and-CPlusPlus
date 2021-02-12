@@ -22,7 +22,7 @@ const char* keys =
 int main( int argc, const char** argv )
 {
 	CommandLineParser parser(argc, argv, keys);
-    parser.about("Chapter 2. v1.0.0");
+    parser.about("Chapter 3. v1.0.0");
     //If requires help show
     if (parser.has("help"))
 	{
